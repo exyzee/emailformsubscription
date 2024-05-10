@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.email-subscription {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.hero-header {
+    margin-top: 0;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.hero-subscript {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #666666;
+}
+
+.inputs {
+    margin-top: 30px;
+}
+
+.inputs input[type="email"] {
+    padding: 15px;
+    width: 300px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+}
+
+.inputs button[type="submit"] {
+    padding: 15px 30px;
+    margin-left: 20px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.inputs button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.alert {
+    margin-top: 30px;
+    color: #721c24;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    padding: 20px;
+    border-radius: 8px;
+    display: none;
+}
+
+.red-border {
+    border: 2px solid #ff6347 !important;
+}
+
+/* Your existing CSS styles */
+
+/* Success alert */
+.alert.success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
