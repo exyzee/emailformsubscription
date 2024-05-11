@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function shootConfetti() {
         const defaults = {
             spread: 360,
-            ticks: 50,
+            ticks: 80,
             gravity: 0,
             decay: 0.94,
             startVelocity: 30,
@@ -69,15 +69,15 @@ document.addEventListener('DOMContentLoaded', function() {
           function shoot() {
             confetti({
               ...defaults,
-              particleCount: 40,
+              particleCount: 60,
               scalar: 1.2,
               shapes: ["star"],
             });
           
             confetti({
               ...defaults,
-              particleCount: 10,
-              scalar: 0.75,
+              particleCount: 30,
+              scalar: 1.5,
               shapes: ["circle"],
             });
           }
